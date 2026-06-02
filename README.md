@@ -334,3 +334,13 @@ DB는 트랜잭션 수행 내용을 로그에 기록하는데, 이때 장애 발
 |T1|COMMIT 있음|REDO|
 |T2|COMMIT 없음|UNDO|
 
+---
+
+주말 복습할 내용 : 
+1. 후보키 = 유일성 + 최소성
+2. 기본키 = NULL 불가 + 중복 불가
+3. SQL 실행 순서 = FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY
+4. WHERE = 행 조건 / HAVING = 그룹 조건
+5. 1NF = 원자값 / 2NF = 부분 종속 제거 / 3NF = 이행 종속 제거 / BCNF = 결정자는 후보키
+6. ACID = 원자성, 일관성, 고립성, 지속성
+7. COMMIT 있음 = REDO / COMMIT 없음 = UNDO
