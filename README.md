@@ -1,4 +1,4 @@
-# DataBass_Study
+# Databass_Study
 @1 June, 2026
 
 ### 데이터베이스 정리
