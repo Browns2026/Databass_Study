@@ -146,7 +146,7 @@ HAVING 은 그룹 조건이다.
 - GROUP BY dept
 - HAVING COUNT(*) >= 3;
 
-라고 하면, 학과별로 학생 수를 센 뒤, 학생 수가 3명 이상인 학과만 출력한다. 라는 의미가 되며, HAVING 은 GROUP BY 이루에 작동한다.
+라고 하면, 학과별로 학생 수를 센 뒤, 학생 수가 3명 이상인 학과만 출력한다. /n라는 의미가 되며, HAVING 은 GROUP BY 이루에 작동한다.
 
         WHERE = 행을 거른다
         HAVING = 그룹을 거른다
