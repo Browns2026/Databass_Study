@@ -775,3 +775,13 @@ REDO vs UNDO
 7. COMMIT이 있으면 왜 REDO인가?
 8. COMMIT이 없으면 왜 UNDO인가?
 9. 체크포인트는 왜 필요한가?
+
+
+
+---
+약점 파악
+1. SQL 작성 순서 vs 실행 순서
+    - 작성 순서: SELECT → FROM → WHERE → GROUP BY → HAVING → ORDER BY
+    \n 실행 순서: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY
+    \n
+    논리적 처리 순서
